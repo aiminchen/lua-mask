@@ -2,4 +2,7 @@ git 常用命令
 1. 使用属性图显示log
 -- git log --oneline --graph
 
+# 将本地的newbranch与远端的branch分支关联，本地分支和远端分支关联了以后，在push的时候就能直接将本地分支和远端分支名称都省略了，直接使用git push就可以进行推送
+-- git branch --set-upstream-to=origin/branch newbranch
+
 
